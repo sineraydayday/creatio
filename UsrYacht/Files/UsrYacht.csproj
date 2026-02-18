@@ -596,13 +596,23 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="Terrasoft.Configuration">
+			<HintPath>$(RelativePkgFolderPath)/../bin/Terrasoft.Configuration.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="XSSProtection">
 			<HintPath>$(RelativePkgFolderPath)/XSSProtection/$(StandalonePackageAssemblyPath)/XSSProtection.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>
-	<ItemGroup Label="Standalone package external assembly references" />
+	<ItemGroup Label="Standalone package external assembly references">
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/System.Web.Services.CrtProcessDesigner.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+	</ItemGroup>
 	<ItemGroup Label="Entity Files" />
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

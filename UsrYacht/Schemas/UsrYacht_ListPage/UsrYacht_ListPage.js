@@ -17,7 +17,6 @@ define("UsrYacht_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"operation": "merge",
 				"name": "FolderTree",
 				"values": {
-					"sourceSchemaName": "FolderTree",
 					"rootSchemaName": "UsrYacht"
 				}
 			},
@@ -44,6 +43,18 @@ define("UsrYacht_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							"caption": "#ResourceString(PDS_CreatedBy)#",
 							"dataValueType": 10
 						},
+						{
+							"id": "eb6a2691-689f-6d00-6142-8b0d0d56d3c7",
+							"code": "PDS_UsrColumn8",
+							"caption": "#ResourceString(PDS_UsrColumn8)#",
+							"dataValueType": 32
+						},
+						{
+							"id": "563939f4-5423-a0d2-a318-aeb3bdf4804a",
+							"code": "PDS_UsrColumn9",
+							"caption": "#ResourceString(PDS_UsrColumn9)#",
+							"dataValueType": 10
+						}
 					]
 				}
 			},
@@ -88,6 +99,16 @@ define("UsrYacht_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"modelConfig": {
 							"path": "PDS.CreatedBy"
 						}
+					},
+					"PDS_UsrColumn8": {
+						"modelConfig": {
+							"path": "PDS.UsrColumn8"
+						}
+					},
+					"PDS_UsrColumn9": {
+						"modelConfig": {
+							"path": "PDS.UsrColumn9"
+						}
 					}
 				}
 			}
@@ -101,7 +122,24 @@ define("UsrYacht_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"config"
 				],
 				"values": {
-					"entitySchemaName": "UsrYacht"
+					"entitySchemaName": "UsrYacht",
+					"attributes": {
+						"UsrName": {
+							"path": "UsrName"
+						},
+						"CreatedOn": {
+							"path": "CreatedOn"
+						},
+						"CreatedBy": {
+							"path": "CreatedBy"
+						},
+						"UsrColumn8": {
+							"path": "UsrColumn8"
+						},
+						"UsrColumn9": {
+							"path": "UsrColumn9"
+						}
+					}
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,

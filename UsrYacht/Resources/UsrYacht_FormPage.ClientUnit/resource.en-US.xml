@@ -3,10 +3,29 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yacht form page" />
+			<Item Name="LocalizableStrings.ExpansionPanel_epsy19v_title.Value" Value="Yacht Rental" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_ie4frmd_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_f0dhv0x_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_mzi3g3u_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_tqmpt7n_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_qwermhu_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_unvhii2_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Input_00vdey5_label.Value" Value="Text" />
+			<Item Name="LocalizableStrings.ManagerEmail_label.Value" Value="Manager Email" />
+			<Item Name="LocalizableStrings.PassengersCountCannotBeLess.Value" Value="Passengers count cannot be less than 2" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 200.0" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me" />
+			<Item Name="LocalizableStrings.addRecord_1quvanv_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_4579rxl_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_7fl743g_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_7nnpl1w_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_7z38n48_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_b26dh1h_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ct4njzj_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_kwdy3a5_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_pt2ydgx_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_tuirvi9_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_yjcf7ww_caption.Value" Value="Add new" />
 		</Items>
 	</Group>
 </Resources>
